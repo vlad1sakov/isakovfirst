@@ -1,0 +1,57 @@
+.tablesettings {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+  line-height: 19px;
+}
+.tablesettings-search {
+  width: 281px;
+  height: 40px;
+  color: #000000;
+  background: #ffffff;
+  border: 2px solid rgba(0, 44, 68, 0.25);
+  border-radius: 6px;
+  margin-left: 15px;
+}
+
+
+.tablesettings-settings {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+  gap: 7px;
+}
+
+.tablesettings-settings-first-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 140px;
+  color: #0073a4;
+  background: #ffffff;
+  border: 2px solid #0073a4;
+}
+
+.tablesettings-settings-second-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 190px;
+  color: #ffffff;
+  background: #0073a4;
+  margin-right: auto;
+}
+.helpsecondbutton {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}

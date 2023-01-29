@@ -1,0 +1,43 @@
+.toadd {
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 3;
+}
+.toadd.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.toadd-content {
+  width: 900px;
+  height: 100vw;
+}
+
+.toadd-content.active {
+  width: 900px;
+  height: 100vw;
+  padding: 20px;
+  background-color: #f9faf8;
+}
+.setingcolumns {
+  display: flex;
+  flex-direction: column;
+  columns: 2;
+  margin-right: 20px;
+}
+.tett {
+  display: flex;
+  align-items: center;
+}
+select {
+  width: 400px;
+  height: 40px;
+}
