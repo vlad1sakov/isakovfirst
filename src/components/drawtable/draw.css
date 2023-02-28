@@ -13,6 +13,9 @@ td {
 }
 thead {
   border: 0px;
+  position: sticky;
+  right: 0px;top: -1px;
+  background-color: #ffffff;
 }
 td{
 text-align: center;
@@ -47,4 +50,11 @@ border: 1px solid #E6EAED;
 }
 ::-webkit-scrollbar-thumb{
   background: #0073A4;
+}
+.redaction {
+padding: 0;
+margin: 0;
+width: 18px;
+height: 18px;
+  background-color: #ffffff;
 }

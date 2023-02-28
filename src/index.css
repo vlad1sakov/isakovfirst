@@ -40,6 +40,9 @@ input[type="password"] {
 }
 
 button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
   background-color: #0073a4;
   color: white;
   padding: 14px 20px;

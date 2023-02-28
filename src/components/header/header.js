@@ -1,5 +1,5 @@
 import "./header.css"
-import avatar from "../img/avatar.svg"
+import avatar from "../../img/avatar.svg"
 const Header = () => {
   return(
   <>

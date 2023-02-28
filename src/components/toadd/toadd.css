@@ -1,3 +1,8 @@
+label{
+  color: #000000;
+  opacity: 0.5;
+}
+
 .toadd {
   width: 100vw;
   height: 100vw;
@@ -27,17 +32,59 @@
   padding: 20px;
   background-color: #f9faf8;
 }
-.setingcolumns {
-  display: flex;
-  flex-direction: column;
-  columns: 2;
-  margin-right: 20px;
+
+.gridform {
+display: grid;
+grid-template-columns:1fr 1fr;
+grid-row-gap: 20px;
+
 }
-.tett {
-  display: flex;
-  align-items: center;
-}
-select {
+.formplace {
   width: 400px;
   height: 40px;
+  margin-top: 5px;
 }
+.tetet{
+  display: flex;
+  flex-direction: column;
+  height: 65px;
+}
+
+.formb{
+  display: flex;
+  align-items: start;
+ gap: 30px;
+ justify-content: space-between;
+ 
+}
+.formbu{
+  height: 40px;
+  width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0073A4; 
+  background-color: #ffffff;
+  border: 2px solid #0073A4;
+}
+.formbut{
+height: 40px;
+width: 140px;
+display: flex;
+margin-left: 30px;
+align-items: center;
+justify-content: center; 
+border: 2px solid #E72525;
+background-color: #ffffff;
+color: #E72525
+;
+}
+.formbutt{
+height: 40px;
+width: 140px;
+display: flex;
+align-items: center;
+justify-content: center; 
+color: #ffffff;
+background-color: #0073A4;
+ }

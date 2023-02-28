@@ -1,9 +1,15 @@
-import "./toadd.css";
-const Toadd = ({ active, setActive }) => {
+import "./redact.css";
+const Redact = ({ active, setActive }) => {
   return (
-    <div className={active ? "toadd active" : "toadd"} onClick={() => setActive(false)} >
-      <div className={active ? "toadd-content active" : "toadd-content"} onClick={(e) => e.stopPropagation()}>
-        <h1>Добавить услугу</h1>
+    <div
+      className={active ? "redact active" : "redact"}
+      onClick={() => setActive(false)}
+    >
+      <div
+        className={active ? "redact-content active" : "redact-content"}
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h1>Редактировать услугу</h1>
         <form class="gridform">
           <div class="tetet">
             <label>Составной код</label>
@@ -73,6 +79,7 @@ const Toadd = ({ active, setActive }) => {
             <button class="formbu">В архив</button>
             <button class="formbut">Удалить</button>
           </li>
+
           <li>
             <button class="formbutt">Сохранить</button>
           </li>
@@ -81,4 +88,4 @@ const Toadd = ({ active, setActive }) => {
     </div>
   );
 };
-export { Toadd };
+export { Redact };
