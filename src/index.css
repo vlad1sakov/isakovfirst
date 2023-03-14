@@ -71,6 +71,15 @@ img.avatar {
   justify-content: center;
   font-size: 100px;
 }
+input[type="checkbox"]:active{
+  width: 14px;
+  height: 14px;
+  border: 2px solid #BFCAD0;
+  border-radius: 4px;
+  background: #10a400;
+  background-color: #f44336;
+  color: brown;
+}
 @media screen and (max-width: 300px) {
   span.psw {
     display: block;

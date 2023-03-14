@@ -35,7 +35,8 @@ table {
   margin-right: 2%;
   margin-left: 2%;
 height: 35vw;
-overflow: auto;
+overflow-y: auto;
+overflow-x: hidden;
 margin-bottom: 18px; 
 margin-top: 30px;
 border: 1px solid #E6EAED;
@@ -56,5 +57,11 @@ padding: 0;
 margin: 0;
 width: 18px;
 height: 18px;
+  background-color: #ffffff;
+}
+.settings-table{
+  width: 14px;
+  height: 14px;
+  margin: 0;padding: 0;
   background-color: #ffffff;
 }

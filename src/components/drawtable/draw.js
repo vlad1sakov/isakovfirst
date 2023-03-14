@@ -40,70 +40,103 @@ function Draw() {
   });
 
   return (
-    <div class="skrol">
+    <div className="skrol">
       <table>
         <thead>
           <tr>
-            <td class="decoration-table">
+            <td className="decoration-table">
               <input type="checkbox"></input>
             </td>
-            <td class="decoration-table"></td>
-            <td class="decoration-table">
+            <td className="decoration-table"></td>
+            <td className="decoration-table">
               Составной код
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               Линия бизнеса
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               LOB
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               Линейка услуг
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               SRV.LINE
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               Услуга
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               SRV
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               Элемент услуги
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               SRV.EL
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               Тариф
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               TARRIF
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               Эл. тарификации
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
-            <td class="decoration-table">Ед. тарификации</td>
+            <td class="decoration-table">
+              Ед. тарификации
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
+            </td>
             <td class="decoration-table">
               Тип тарифа
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
             <td class="decoration-table">
               Перерасчет
-              <img src={tableimg} alt="" />
+              <button className="settings-table">
+                <img src={tableimg} alt="" />
+              </button>
             </td>
           </tr>
         </thead>
